@@ -1,0 +1,8 @@
+<?php
+
+namespace {{ namespace }};
+
+enum {{ class }}: int
+{
+    case Example = 1;
+}

@@ -1,0 +1,39 @@
+{
+    "name": "kastsecho/laravel-commands",
+    "description": "Artisan commands for Laravel.",
+    "keywords": [
+        "kastsecho",
+        "laravel",
+        "laravel-commands"
+    ],
+    "homepage": "https://github.com/kastsecho/laravel-commands",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jared Lewis",
+            "email": "jared@kasts-echo.net"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/console": "^10.0",
+        "illuminate/support": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kastsecho\\LaravelCommands\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kastsecho\\LaravelCommands\\LaravelCommandServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

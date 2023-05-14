@@ -1,0 +1,21 @@
+<?php
+
+namespace {{ namespace }};
+
+trait {{ class }}
+{
+    protected function initialize{{ class }}(): void
+    {
+        //
+    }
+
+    protected static function boot{{ class }}(): void
+    {
+        //
+    }
+
+    protected static function booted{{ class }}(): void
+    {
+        //
+    }
+}
